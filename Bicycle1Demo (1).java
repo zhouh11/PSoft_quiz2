@@ -86,3 +86,14 @@ public class conflict_stuff {
 		c.createRace();
 	}
 }
+
+public class conflict_stuff {
+
+	public static void main(String[] args) {
+		Race t = new TourDeFrance();
+		t.createRace();
+		System.out.println();
+		Race c = new Cyclocross();
+		c.createRace();
+	}
+}
