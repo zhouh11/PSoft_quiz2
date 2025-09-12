@@ -73,3 +73,14 @@ public class conflict1 {
 		c.createRace();
 	}
 }
+
+public class conflict2 {
+
+	public static void main(String[] args) {
+		Race t = new TourDeFrance();
+		t.createRace();
+		System.out.println();
+		Race c = new Cyclocross();
+		c.createRace();
+	}
+}
