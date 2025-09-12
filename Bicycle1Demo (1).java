@@ -63,7 +63,7 @@ public class Bicycle1Demo {
 	}
 }
 
-public class conflict1 {
+public class conflict {
 
 	public static void main(String[] args) {
 		Race t = new TourDeFrance();
@@ -75,6 +75,16 @@ public class conflict1 {
 }
 
 public class conflict2 {
+
+	public static void main(String[] args) {
+		Race t = new TourDeFrance();
+		t.createRace();
+		System.out.println();
+		Race c = new Cyclocross();
+		c.createRace();
+	}
+}
+public class conflict3 {
 
 	public static void main(String[] args) {
 		Race t = new TourDeFrance();
