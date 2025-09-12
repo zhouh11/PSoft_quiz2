@@ -60,3 +60,14 @@ public class Bicycle1Demo {
 		c.createRace();
 	}
 }
+
+public class conflict1 {
+
+	public static void main(String[] args) {
+		Race t = new TourDeFrance();
+		t.createRace();
+		System.out.println();
+		Race c = new Cyclocross();
+		c.createRace();
+	}
+}
