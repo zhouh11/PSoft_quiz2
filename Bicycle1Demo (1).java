@@ -76,18 +76,7 @@ public class conflict {
 
 
 
-public class conflictstuff {
-
-	public static void main(String[] args) {
-		Race t = new TourDeFrance();
-		t.createRace();
-		System.out.println();
-		Race c = new Cyclocross();
-		c.createRace();
-	}
-}
-
-public class conflict3 {
+public class conflict_stuff {
 
 	public static void main(String[] args) {
 		Race t = new TourDeFrance();
