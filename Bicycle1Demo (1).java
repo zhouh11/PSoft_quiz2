@@ -74,7 +74,9 @@ public class conflict {
 	}
 }
 
-public class conflict2 {
+
+
+public class conflictstuff {
 
 	public static void main(String[] args) {
 		Race t = new TourDeFrance();
@@ -84,6 +86,7 @@ public class conflict2 {
 		c.createRace();
 	}
 }
+
 public class conflict3 {
 
 	public static void main(String[] args) {
