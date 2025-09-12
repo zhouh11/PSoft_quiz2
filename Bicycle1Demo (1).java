@@ -58,6 +58,19 @@ public class Bicycle1Demo {
 		System.out.println();
 		Race c = new Cyclocross();
 		c.createRace();
+		Race pushrace = new Cyclocross();
+		pushrace.createRace();
+	}
+}
+
+public class conflict1 {
+
+	public static void main(String[] args) {
+		Race t = new TourDeFrance();
+		t.createRace();
+		System.out.println();
+		Race c = new Cyclocross();
+		c.createRace();
 	}
 }
 
